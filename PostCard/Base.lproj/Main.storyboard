@@ -95,13 +95,22 @@
                                     <action selector="sendMailButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ddm-Gt-3JA"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pU6-0V-86w">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0oY-fI-jm7">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="9" y="85" width="212" height="21"/>
+                                    <rect key="frame" x="10" y="133" width="217" height="21"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pU6-0V-86w">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="10" y="73" width="217" height="52"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -112,6 +121,7 @@
                                 <exclude reference="E3k-hd-rpP"/>
                                 <exclude reference="bHO-bx-6dO"/>
                                 <exclude reference="H2X-v5-UJh"/>
+                                <exclude reference="0oY-fI-jm7"/>
                                 <exclude reference="pU6-0V-86w"/>
                             </mask>
                         </variation>
@@ -121,6 +131,7 @@
                                 <include reference="E3k-hd-rpP"/>
                                 <include reference="bHO-bx-6dO"/>
                                 <include reference="H2X-v5-UJh"/>
+                                <include reference="0oY-fI-jm7"/>
                                 <include reference="pU6-0V-86w"/>
                             </mask>
                         </variation>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="E3k-hd-rpP" id="5qX-AU-Pvi"/>
                         <outlet property="mailButton" destination="H2X-v5-UJh" id="dW9-xY-HgM"/>
                         <outlet property="messageLabel" destination="pU6-0V-86w" id="eC5-Nk-GBh"/>
+                        <outlet property="nameLabel" destination="0oY-fI-jm7" id="Mtu-ei-NII"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
